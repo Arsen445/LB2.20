@@ -1,0 +1,1 @@
+select Rank, Country, Population, IMF_GDP from countries where Continent == 'Asia' order by Population desc limit 5;

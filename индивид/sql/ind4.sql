@@ -1,0 +1,1 @@
+select Rank, ID from countries where Population < 100000.00 order Continent = Europe limit 5;
